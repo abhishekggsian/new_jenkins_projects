@@ -17,3 +17,7 @@ resource "azurerm_resource_group" "rg" {
   name     = "rg-abhi-001"
   location = "westus"
 }
+resource "azurerm_resource_group" "rg1" {
+  name     = "rg-abhi-002"
+  location = "westus"
+}
